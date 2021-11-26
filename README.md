@@ -1,3 +1,3 @@
 # mainsan
 
-WM market : 우리의 월드{test}
+WM market : 우리의 월드
