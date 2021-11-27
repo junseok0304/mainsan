@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:gravity="center"
-    tools:context=".MainActivity">  <!--.MainActivity java디렉토리의 액티비티와 대응되도록 변경할것  -->
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">  <!--.MainActivity java디렉토리의 액티비티와 대응되도록 변경할것  -->
 
+    <com.mintcho.wwmarket2.StatusBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/backgroundyellow" />
 
     <ImageView
         android:id="@+id/backgrounds1280ver"
@@ -21,16 +27,23 @@
 
 
     <ImageView
+        android:id="@+id/화면체크용배경"
+        android:layout_width="438dp"
+        android:layout_height="917dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_whiteractangle" />
+
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="180dp"
         android:layout_height="172dp"
         android:layout_marginStart="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233"
+        app:layout_constraintTop_toTopOf="@id/guide_line_1"
         app:srcCompat="@drawable/ic_jounggo" />
 
     <ImageView
@@ -47,15 +60,13 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="186dp"
+        android:layout_height="172dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
+        app:layout_constraintTop_toTopOf="@id/guide_line_1"
         app:srcCompat="@drawable/ic_offers3000" />
 
     <ImageView
@@ -70,12 +81,31 @@
         app:layout_constraintVertical_bias="0.288"
         app:srcCompat="@drawable/closet1" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="130dp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="209dp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guide_line_1" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily=""
         android:text="중고마켓"
+        android:fontFamily="@font/gmarketbold"
+        android:textColor="@color/black"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,6 +119,7 @@
         android:layout_width="66dp"
         android:layout_height="64dp"
         android:text="화면전환"
+        android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
@@ -101,6 +132,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
+        android:background="@null"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.259"

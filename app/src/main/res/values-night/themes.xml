@@ -12,5 +12,17 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@style/DefaultTextViewStyle</item>
+        <item name="android:buttonStyle">@style/DefaultButtonStyle</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="DefaultTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">gmarketbold</item>
+    </style>
+
+    <style name="DefaultButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">gmarketbold</item>
     </style>
 </resources>
