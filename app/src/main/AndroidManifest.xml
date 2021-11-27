@@ -17,10 +17,6 @@
             android:name=".SubActivity"
             android:exported="false" />
         <activity
-            android:name=".Splashactivity"
-            android:exported="false"
-            android:label="Splash"/>
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
