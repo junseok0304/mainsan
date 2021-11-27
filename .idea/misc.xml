@@ -4,14 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.140625" />
+        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_coin2000.xml" value="0.265625" />
+        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_coin3000candy.xml" value="0.265625" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_frame_11.xml" value="0.264" />
+        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_heartempty.xml" value="0.265625" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_jounggo.xml" value="0.265625" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_junggo.xml" value="0.140625" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_offers3000.xml" value="0.265625" />
+        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/drawable/ic_whiteractangle.xml" value="0.265625" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/font/font.xml" value="0.2796875" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/layout/activity_main.xml" value="0.4161598609904431" />
+        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/layout/activity_market1.xml" value="0.264" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/layout/activity_splashactivity.xml" value="0.16304347826086957" />
-        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/layout/activity_sub.xml" value="0.176" />
+        <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/layout/activity_sub.xml" value="0.264" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan0/app/src/main/res/layout/activity_sub2.xml" value="0.264" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan2/app/src/main/res/drawable/ic_logomain.xml" value="0.2490740740740741" />
         <entry key="..\:/Users/junseok/AndroidStudioProjects/mainsan2/app/src/main/res/layout/activity_main.xml" value="0.176" />
