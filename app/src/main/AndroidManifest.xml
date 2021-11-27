@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wwmarket2">
+
+        <activity
+            android:name=".SubActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity"
+            android:exported="false" />
         <activity
             android:name=".Splashactivity"
             android:exported="false"
