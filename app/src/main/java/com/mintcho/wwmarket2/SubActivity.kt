@@ -10,9 +10,6 @@ class SubActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sub)
 
-        mButton.setOnClickListener {
-            val intent = Intent(this, SubActivity2::class.java)
-            startActivity(intent)
-        }
+
     }
 }

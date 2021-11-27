@@ -34,7 +34,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_whiteractangle" />
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="180dp"
@@ -114,18 +113,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
-    <Button
-        android:id="@+id/mButton"
-        android:layout_width="66dp"
-        android:layout_height="64dp"
-        android:text="화면전환"
-        android:background="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098" />
 
     <ImageButton
         android:id="@+id/realButton"
@@ -140,6 +127,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.494"
         app:srcCompat="@drawable/ic_realmarketbutton"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/realButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494"
+        app:srcCompat="@drawable/ic_gasangbutton"
         tools:ignore="SpeakableTextPresentCheck" />
 
 
