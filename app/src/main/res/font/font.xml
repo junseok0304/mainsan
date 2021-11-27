@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <font
+            android:font="@font/spoqa_neolight"
+            app:font="@font/spoqa_neolight" />
+        <font
+            android:font="@font/spoqa_neomedium"
+            app:font="@font/spoqa_neomedium" />
+        <font
+            android:font="@font/spoqa_neoregular"
+            app:font="@font/spoqa_neoregular" />
+        <font
+            android:font="@font/spoqa_neothin"
+            app:font="@font/spoqa_neothin" />
+        <font
+            android:font="@font/spoqa_neobold"
+            app:font="@font/spoqa_neobold" />
+
+
+    <font
+        android:font="@font/gmarketbold"
+        app:font="@font/gmarketbold" />
+
+    <font
+        android:font="@font/gmarketlight"
+        app:font="@font/gmarketlight" />
+
+    <font
+        android:font="@font/gmarketmedium"
+        app:font="@font/gmarketmedium" />
+
+    <font
+        android:font="@font/sfpro"
+        app:font="@font/sfpro" />
+    <font
+        android:font="@font/sfprobold"
+        app:font="@font/sfprobold" />
+    <font
+        android:font="@font/sfprolight"
+        app:font="@font/sfprolight" />
+    <font
+        android:font="@font/sfpromedium"
+        app:font="@font/sfpromedium" />
+</font-family>
