@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wwmarket2">
+
         <activity
-            android:name=".realoffermain"
+            android:name=".MainActivity_realworld"
             android:exported="false" />
         <activity
-            android:name=".realchat"
+            android:name=".activity_market1"
+            android:exported="false" />
+        <activity
+            android:name=".realoffermain"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
@@ -24,11 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".MainActivity_realworld"
-            android:exported="false" />
-        <activity
-            android:name=".activity_market1"
+            android:name=".realchat"
             android:exported="false" />
         <activity
             android:name=".SubActivity2"
