@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/select_item_backgrond2"
-    tools:context=".SubActivity2"
+    android:background="@drawable/select_item_backgrond"
+    tools:context=".Sub2aActivity"
     android:orientation="vertical"
     >
 
@@ -29,7 +29,7 @@
         -->
 
         <Button
-            android:id="@+id/button5_nego"
+            android:id="@+id/button5_negoa"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="130dp"
@@ -41,7 +41,7 @@
             tools:ignore="MissingConstraints" />
 
         <Button
-            android:id="@+id/button6_buy"
+            android:id="@+id/button6_buya"
             android:layout_width="0dp"
             android:layout_height="130dp"
 
@@ -57,7 +57,7 @@
 
 
     <Button
-        android:id="@+id/button7_hist"
+        android:id="@+id/button7_hista"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="218dp"
         android:layout_height="350dp"
@@ -75,7 +75,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButton8_back"
+        android:id="@+id/imageButton8_backa"
         android:layout_width="69dp"
         android:layout_height="62dp"
         android:background="@null"

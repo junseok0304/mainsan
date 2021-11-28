@@ -10,6 +10,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wwmarket2">
         <activity
+            android:name=".Sub2buy2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2buyfinal2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2NegoaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2NegofinalaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2buyfinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub3aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2buyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2NegofinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sub2NegoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity3"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -18,7 +51,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity_realworld"
             android:exported="false" />
