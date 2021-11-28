@@ -11,7 +11,7 @@ class MainActivity_realworld : AppCompatActivity() {
         setContentView(R.layout.activity_main_realworld) //layout 디렉토리의 xml와 1대1 매칭되도록 activity_main
 
         metaHome.setOnClickListener {
-            val intent = Intent(this, MainActivity_realworld::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+            val intent = Intent(this, MainActivity::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
 
