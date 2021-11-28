@@ -14,6 +14,13 @@ class activity_market1 : AppCompatActivity() {
             val intent = Intent(this, MainActivity_realworld::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
+
+        chatbutton.setOnClickListener {
+            val intent = Intent(this, realchat::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+            startActivity(intent)
+        }
+
+
     }
 
 }

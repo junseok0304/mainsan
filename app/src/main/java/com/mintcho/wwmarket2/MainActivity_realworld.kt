@@ -20,7 +20,10 @@ class MainActivity_realworld : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+        realOffer.setOnClickListener {
+            val intent = Intent(this, realoffermain::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+            startActivity(intent)
+        }
 
     }
 }
