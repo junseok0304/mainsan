@@ -13,6 +13,28 @@
         <activity
             android:name=".MainActivity_realworld"
             android:exported="false" />
+
+        <activity
+            android:name=".MainActivity2_offer"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity2_offer2"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".MainActivity2_offera2"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity2_offera3"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity2_offera"
+            android:exported="false" />
+
         <activity
             android:name=".activity_market1"
             android:exported="false" />
