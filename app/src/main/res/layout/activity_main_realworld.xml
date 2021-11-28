@@ -107,8 +107,8 @@
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView2"
-        android:layout_width="465dp"
-        android:layout_height="293dp"
+        android:layout_width="539dp"
+        android:layout_height="291dp"
         android:layout_marginTop="30dp"
         android:fillViewport="true"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,8 +121,8 @@
 
             <ImageButton
                 android:id="@+id/realMarket"
-                android:layout_width="480dp"
-                android:layout_height="293dp"
+                android:layout_width="540dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="top"
                 android:layout_margin="0dp"
                 android:layout_weight="1"

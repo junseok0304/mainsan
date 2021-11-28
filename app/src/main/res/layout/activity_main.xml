@@ -30,7 +30,7 @@
     <ImageButton
         android:id="@+id/realHome"
         android:layout_width="48dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="83dp"
         android:layout_marginEnd="386dp"
@@ -107,8 +107,8 @@
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView2"
-        android:layout_width="465dp"
-        android:layout_height="293dp"
+        android:layout_width="543dp"
+        android:layout_height="292dp"
         android:layout_marginTop="30dp"
         android:fillViewport="true"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,8 +121,8 @@
 
             <ImageButton
                 android:id="@+id/mMarket"
-                android:layout_width="480dp"
-                android:layout_height="293dp"
+                android:layout_width="543dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="top"
                 android:layout_margin="0dp"
                 android:layout_weight="1"
