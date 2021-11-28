@@ -11,7 +11,7 @@ class activity_market1 : AppCompatActivity() {
         setContentView(R.layout.activity_market1)
 
         backbutton.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+            val intent = Intent(this, MainActivity_realworld::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
     }
