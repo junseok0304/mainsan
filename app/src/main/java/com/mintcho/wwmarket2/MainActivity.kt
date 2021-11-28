@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SubActivity::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
+        metaOffer.setOnClickListener {
+            val intent = Intent(this, MainActivity2_offer::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+            startActivity(intent)
+        }
         realHome.setOnClickListener {
             val intent = Intent(this, MainActivity_realworld::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
