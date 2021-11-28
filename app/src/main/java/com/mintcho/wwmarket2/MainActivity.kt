@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main) //layout 디렉토리의 xml와 1대1 매칭되도록 activity_main
 
 
-        realButton.setOnClickListener {
-            val intent = Intent(this, activity_market1::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+        mMarket.setOnClickListener {
+            val intent = Intent(this, SubActivity::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
-        realButton2.setOnClickListener {
-            val intent = Intent(this, SubActivity::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+        realHome.setOnClickListener {
+            val intent = Intent(this, MainActivity_realworld::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
 
