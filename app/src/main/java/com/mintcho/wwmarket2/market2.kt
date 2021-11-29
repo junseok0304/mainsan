@@ -3,23 +3,22 @@ package com.mintcho.wwmarket2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_market3.*
-import kotlinx.android.synthetic.main.activity_realchat.*
+import kotlinx.android.synthetic.main.activity_market2.*
 
-class realchat : AppCompatActivity() {
+class market2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_realchat)
+        setContentView(R.layout.activity_market2)
 
-        back4button.setOnClickListener {
-            val intent =
-                Intent(this, activity_market1::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+        back2button.setOnClickListener {
+            val intent = Intent(this, realchat::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
 
-        chatbutto9n.setOnClickListener {
+        chatbutto2n.setOnClickListener {
             val intent = Intent(this, market3::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
         }
+
     }
 }

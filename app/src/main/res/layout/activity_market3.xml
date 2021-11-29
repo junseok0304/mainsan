@@ -4,17 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    android:background="@color/backgroundyellow"
-    >
+    tools:context=".market3"
+    android:background="@drawable/chatmain2">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="198dp"
-        android:layout_height="187dp"
+
+
+
+    <ImageButton
+        android:id="@+id/back3button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="262dp"
+        android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_logomain" />
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/ic_arrowback"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,11 @@ class activity_market1 : AppCompatActivity() {
             startActivity(intent)
         }
 
+        realmkbutton2.setOnClickListener {
+            val intent = Intent(this, market2::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
+            startActivity(intent)
+        }
+
 
     }
 

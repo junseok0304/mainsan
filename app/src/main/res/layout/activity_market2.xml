@@ -4,37 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/chatmain"
-    tools:context=".realchat">
+    android:background="@drawable/market3"
+    tools:context=".market2">
+
+
 
     <ImageButton
-        android:id="@+id/back4button"
-        android:layout_width="67dp"
-        android:layout_height="84dp"
+        android:id="@+id/back2button"
+        android:layout_width="68dp"
+        android:layout_height="70dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="262dp"
-        android:layout_marginBottom="92dp"
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.015"
-        app:srcCompat="@drawable/ic_arrowback"
+        app:layout_constraintVertical_bias="0.02"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/chatbutto9n"
-        android:layout_width="517dp"
-        android:layout_height="586dp"
+        android:id="@+id/chatbutto2n"
+        android:layout_width="319dp"
+        android:layout_height="61dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
+
+        android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.289"
-        app:srcCompat="@drawable/chatattr2" />
+        app:layout_constraintVertical_bias="0.956"
+        app:srcCompat="@drawable/budchat" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
