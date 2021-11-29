@@ -9,11 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wwmarket2">
+
         <activity
             android:name=".offer5"
             android:exported="false" />
         <activity
             android:name=".realoffer4"
+            android:exported="false" />
+        <activity
+            android:name=".realoffermain"
+            android:exported="false" />
+
+        <activity
+            android:name=".realoffer2"
             android:exported="false" />
         <activity
             android:name=".realoffer3"
@@ -38,9 +46,6 @@
             android:exported="false" />
         <activity
             android:name=".activity_market1"
-            android:exported="false" />
-        <activity
-            android:name=".realoffermain"
             android:exported="false" />
         <activity
             android:name=".Sub2buy2Activity"

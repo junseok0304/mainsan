@@ -10,7 +10,7 @@ class realoffermain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_realoffermain)
 
-        realofferbtn.setOnClickListener {
+        realofferbt1n.setOnClickListener {
             val intent =
                 Intent(this, realoffer2::class.java)  //버튼 누르면 넘어갈 페이지를 Subactivity 위치에 알맞게 변경할것
             startActivity(intent)
