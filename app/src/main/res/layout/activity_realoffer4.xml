@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".realoffer2"
-    android:background="@drawable/negu_page"
-    >
+    tools:context=".realoffer4"
+    android:background="@drawable/negu_page">
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="330dp"
@@ -33,37 +33,37 @@
             tools:ignore="MissingConstraints" />
 
         <!--숫자만 입력하는 edittext -->
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:background="#00ff0000"
-        android:ems="10"
-        android:fontFamily="@font/gmarketbold"
-        android:imeOptions="actionDone"
-        android:inputType="number"
-        android:minHeight="48dp"
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:ems="10"
+            android:fontFamily="@font/gmarketbold"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:minHeight="48dp"
 
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        tools:ignore="SpeakableTextPresentCheck" />
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            tools:ignore="SpeakableTextPresentCheck" />
 
-    <ImageButton
-        android:id="@+id/realofferbtn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:background="@null"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_offer_text2"
-        tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/realofferbtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/ic_offer_text2"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <!--
         <com.google.android.material.textfield.TextInputLayout
@@ -90,7 +90,6 @@
 
                 android:textSize="30sp" />
         </com.google.android.material.textfield.TextInputLayout>-->
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,32 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wwmarket2">
-
+        <activity
+            android:name=".offer5"
+            android:exported="false" />
+        <activity
+            android:name=".realoffer4"
+            android:exported="false" />
+        <activity
+            android:name=".realoffer3"
+            android:exported="false" />
         <activity
             android:name=".MainActivity_realworld"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity2_offer"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity2_offer2"
             android:exported="false" />
-
-
         <activity
             android:name=".MainActivity2_offera2"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity2_offera3"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity2_offera"
             android:exported="false" />
-
         <activity
             android:name=".activity_market1"
             android:exported="false" />

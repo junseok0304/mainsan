@@ -4,29 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".realoffermain">
+    tools:context=".realoffermain"
+    android:background="@drawable/realoffer2">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="746dp"
-        android:layout_height="899dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/offerfirst"
-        tools:layout_editor_absoluteX="-168dp" />
 
-    <ImageButton
-        android:id="@+id/DoOfferButton"
-        android:layout_width="140dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="16dp"
-        android:background="@null"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_dooffer"
-        tools:ignore="SpeakableTextPresentCheck" />
-
+    <Button
+        android:id="@+id/realofferbtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ff0000"
+        style="?android:attr/buttonBarButtonStyle"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,20 +38,20 @@
             android:background="#00ff0000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button6_buya"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
+
+
             android:layout_height="130dp"
-
-
             android:layout_weight="1"
             android:background="#00ff0000"
-            style="?android:attr/buttonBarButtonStyle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 
@@ -62,7 +62,6 @@
         android:layout_width="218dp"
         android:layout_height="350dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="328dp"
         android:layout_marginEnd="25dp"
 
         android:layout_marginBottom="45dp"
@@ -72,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintVertical_bias="1.0" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton8_backa"
@@ -80,11 +79,10 @@
         android:layout_height="62dp"
         android:background="@null"
 
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_arrowback" />
+        app:srcCompat="@drawable/ic_arrowback"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 

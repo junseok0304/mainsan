@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/offer_main2"
-    tools:context=".MainActivity2_offera">
+    tools:context=".offer5"
+    android:background="@drawable/realoffer5">
 
     <Button
-        android:id="@+id/button_offer1a"
+        android:id="@+id/realbtn5"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#00ff0000"
-
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
